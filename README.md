@@ -9,4 +9,7 @@
 5. Change the theme to BlueBerry.
 6. Done!
 
+## Screenshots
+![Screenshot](./screen.png)
+
 _Open the issue ticket if you have any questions regarding the themes or want any updates._
