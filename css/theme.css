@@ -2196,7 +2196,7 @@ ul#topmenu2 li {
 }
 
 .menucontainer {
-	background: #d6edff;
+	background-image: linear-gradient(19deg, #82e8ff 0%, #d681ff 100%);
 }
 
 .scrollindicator {
@@ -2636,7 +2636,7 @@ div#queryAnalyzerDialog {
 }
 
 div#queryAnalyzerDialog div.CodeMirror-scroll {
-	height: auto
+	height: auto;
 }
 
 div#queryAnalyzerDialog div#queryProfiling {
@@ -4256,8 +4256,7 @@ table.show_create td {
 
 #pma_console .toolbar {
 	position: relative;
-	background: #e0e0e0;
-	border-top: solid 1px #aaa;
+	background: #7dc6ff;
 	cursor: n-resize
 }
 
@@ -4330,8 +4329,7 @@ table.show_create td {
 	overflow-x: hidden;
 	overflow-y: auto;
 	margin-bottom: -65px;
-	border-top: solid 1px #aaa;
-	background: #fff;
+	background: #000000;
 	padding-top: .4em;
 	min-height: 5rem;
 }
@@ -4371,8 +4369,9 @@ table.show_create td {
 }
 
 #pma_console .message {
-	border-bottom: solid 1px #ccc;
-	padding-bottom: .2em
+	border-bottom: solid 1px #00b8ff;
+	padding-bottom: .2em;
+	color: white;
 }
 
 #pma_console .message.expanded>.action_content {
@@ -4674,7 +4673,9 @@ table.show_create td {
 }
 
 .cm-s-pma .CodeMirror-scroll {
-	cursor: text
+	cursor: text;
+	background-color: black;
+	color: greenyellow;
 }
 
 .pma_drop_handler {
@@ -5133,6 +5134,11 @@ a.close_gis_editor {
 	border-left: 1px solid #666
 }
 
+#pmalogo{
+	background-color: #269fff;
+	padding:2px;
+}
+
 #pma_navigation #pmalogo,
 #pma_navigation #serverChoice,
 #pma_navigation #navipanellinks,
@@ -5141,10 +5147,12 @@ a.close_gis_editor {
 #pma_navigation #databaseList,
 #pma_navigation div.pageselector.dbselector {
 	text-align: center;
-	padding: 0.5rem 0.5rem;
-	border-bottom: 1px solid #b7b7b7;
 }
 
+#navipanellinks{
+	background-image: linear-gradient(270deg, #82e8ff 0%, #d681ff 100%);
+	padding:7px;
+}
 #pma_navigation #navipanellinks .icon {
 	margin: 0
 }
@@ -5207,7 +5215,7 @@ a.close_gis_editor {
 	overflow: hidden;
 	overflow-y: auto;
 	position: absolute;
-	height: 100%
+	height: 100%;
 }
 
 #pma_navigation_tree_content a.hover_show_full {
@@ -5222,7 +5230,10 @@ a.close_gis_editor {
 	overflow: hidden;
 	color: #444;
 	height: 74%;
-	position: relative
+	position: relative;
+	/* background: linear-gradient(19deg, #82e8ff 0%, #eecaff 100%); */
+	background-color: #ffffff;
+
 }
 
 #pma_navigation_tree a {
