@@ -1,5 +1,5 @@
-# PHPMyAdmin v5.x BlueBerry Theme
-### Customized phpMyAdmin theme with clean design.
+# PHPMyAdmin v5.x - BlueBerry Theme
+### Customized phpMyAdmin theme with clean Materialized design for phpmyadmin version 5.0.0 and whole series of version 5.x.
 
 ## Installation
 1. Copy/Download/Clone the repository to your system
@@ -14,6 +14,11 @@
 
 
 ## Changelogs:
+### v1.5.0 - 17/02/2020
+- Dashboard updated.
+- Responsive fixed.
+- Minor design and CSS changes.
+
 ### v1.2.4 - 13/02/2020
 - Material icons added.
 - Dashboard updated.

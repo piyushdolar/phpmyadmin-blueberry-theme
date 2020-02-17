@@ -1934,16 +1934,11 @@ div.notice {
 }
 
 .error {
-	border: 1px solid maroon !important;
-	color: #000;
-	background: pink
+	color: #ffffff;
+	background: #dc3545;
 }
 
 h1.error {
-	border-color: #333
-}
-
-div.error {
 	border-color: #333
 }
 
@@ -1975,7 +1970,7 @@ div.error h1 {
 div.tools,
 .tblFooters {
 	font-weight: normal;
-	color: rgb(251, 232, 232);
+	color: rgb(0,0,0);
 	background: #e2e2e2
 }
 
@@ -2174,7 +2169,6 @@ ul.tabs {
 }
 
 ul#topmenu2 {
-	margin: .25em .5em 0;
 	height: 2em;
 	clear: both
 }
@@ -2196,7 +2190,7 @@ ul#topmenu2 li {
 }
 
 .menucontainer {
-	background-image: linear-gradient(19deg, #82e8ff 0%, #d681ff 100%);
+	background-image: linear-gradient(19deg, #82e8ff 0%, #e7fcff 100%);
 }
 
 .scrollindicator {
@@ -4304,7 +4298,7 @@ table.show_create td {
 #pma_console .message span.action:hover,
 #pma_console .toolbar .button:hover,
 #pma_console .switch_button:hover {
-	background: #ddd
+	background: #6f6f6f
 }
 
 #pma_console .toolbar .button.active {
@@ -4474,7 +4468,7 @@ table.show_create td {
 #pma_console .message .action_content {
 	position: absolute;
 	bottom: 100%;
-	background: #ccc;
+	background: #000;
 	border: solid 1px #aaa;
 	border-top-left-radius: 3px
 }
@@ -4495,7 +4489,7 @@ table.show_create td {
 }
 
 #pma_console .message .text {
-	background: #fff
+	background: #6f6f6f
 }
 
 #pma_console .message.collapsed>.action_content {
@@ -5150,7 +5144,7 @@ a.close_gis_editor {
 }
 
 #navipanellinks{
-	background-image: linear-gradient(270deg, #82e8ff 0%, #d681ff 100%);
+	background-image: linear-gradient(270deg, #82e8ff 0%, #00dfff 100%);
 	padding:7px;
 }
 #pma_navigation #navipanellinks .icon {
