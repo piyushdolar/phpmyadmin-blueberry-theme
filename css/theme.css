@@ -1340,7 +1340,7 @@ dfn:hover {
 }
 
 th {
-	background: #eeeeee
+	background: #cdf6ff
 }
 
 a img {
@@ -1889,8 +1889,6 @@ div.error h1 {
 div.success,
 div.notice,
 div.error {
-	margin: .5em 0 .5em;
-	border: 1px solid;
 	background-repeat: no-repeat;	
 	-moz-box-shadow: 0 1px 1px #fff inset;
 	-webkit-box-shadow: 0 1px 1px #fff inset;
@@ -1921,7 +1919,7 @@ div.success {
 
 .notice {
 	color: #000;
-	background-color: #ffffff
+	background-color: #fff422
 }
 
 h1.notice,
@@ -3115,9 +3113,7 @@ select.invalid_value,
 	margin-top: 200px;
 	margin-right: auto;
 	margin-bottom: 0;
-	margin-left: auto;
-	padding: 5px;
-	width: 350px;
+	margin-left: auto;	
 	z-index: 1100;
 	text-align: center;
 	display: inline;
@@ -3125,12 +3121,7 @@ select.invalid_value,
 	right: 0;
 	background-image: url("../img/ajax_clock_small.gif");
 	background-repeat: no-repeat;
-	background-position: 2%;
-	border: 1px solid #e2b709;
-	background-color: #ffe57e;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
+	background-position: 2%;	
 	box-shadow: 0 5px 90px #888;
 	-moz-box-shadow: 0 5px 90px #888;
 	-webkit-box-shadow: 0 5px 90px #888
@@ -6110,6 +6101,7 @@ a.active.trigger:hover {
 }
 .responsivetable{
 	border-bottom: 1px solid #eaeaea;
+	margin-bottom: 10px;
 }
 .insertRowTable .CodeMirror {
 	height: 9em;
