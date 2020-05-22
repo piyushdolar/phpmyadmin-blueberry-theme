@@ -2,7 +2,7 @@
 ### Customized phpMyAdmin theme with clean Materialized design for phpmyadmin version 5.0.0 and whole series of version 5.x.
 
 ## Installation
-1. Copy/Download/Clone the repository to your system
+1. Copy/Download/Clone [v1.5.0](https://github.com/piyushdolar/phpmyadmin-blueberry-theme/releases/tag/v1.5.0) the repository to your system
 2. Add the whole folder to your `phpMyAdmin/themes` directory which is located under `wamp/xampp` directory.
 3. Open your phpmyadmin in browser
 4. Go to homepage
